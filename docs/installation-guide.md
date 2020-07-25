@@ -95,7 +95,7 @@ dao acl create $dao $timeLock CHANGE_DURATION_ROLE $voting $voting --environment
 This grants the voting app the permission to change the lock amount.
 
 ```sh
-dao acl create $dao $timeLock CHANGE_AMOUNT_ROLE $tokens $voting --environment aragon:rinkeby
+dao acl create $dao $timeLock CHANGE_AMOUNT_ROLE $voting $voting --environment aragon:rinkeby
 ```
 
 This grants the voting app the permission to change the spam penalty factor.
